@@ -120,11 +120,19 @@ header p{
     margin-bottom: 20px;
 }
 
+.box h3{
+    color: rgba(24, 25, 31, 1);
+}
+
 .Popular-Collection .box{
     background-color: #FFFFFF;
     box-shadow: 10px 10px 20px 5px grey;
     border-radius: 10px;
     padding: 10px;
+}
+
+.box > img{
+    width: 100%;
 }
 
 small{
@@ -176,8 +184,21 @@ footer{
     padding: 50px 400px;
 }
 
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 hr{
     margin: 20px 0;
+}
+
+.icon{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 
